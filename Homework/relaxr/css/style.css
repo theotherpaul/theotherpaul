@@ -50,35 +50,186 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     margin: 0;
+     overflow-x: hidden;
 }
 
+header {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  display: block;
+  opacity:0.9;
+  margin: -8px;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;  
+  margin: 10% 10% auto;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;  
+  background-color: #f9e42e;
+  color: #033048;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 5% auto;
+  border-radius: 5px;
+  max-width:150px;
+}
+
+.button2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 800;  
+  background-color: #2a3546;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 2% auto;
+  border-radius: 5px;
+  max-width:150px;
+}
+
+#benefits{
+  background-color:#f0efef;
+  padding:50px 50px 25px 50px;
+  margin:-8px;
+  display: block;
+}
+
+.title{
+  color:#121212;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.description{
+  color:#606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+li {
+  line-height: 1.75;
+}
+
+#endorsement {
+  background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  display: block;
+  opacity:0.85;
+  margin: -8px;
+  padding: 2%;
+}
+
+.quote {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #f0efef;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  display: block;
+  padding: 25px 10% 5px 10%;
+}
+
+.name {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #f0efef;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  line-height: 2;
+  padding: 0 10% 2% 10%;
+}
+
+#signup {
+  background-color:yellow;
+  display:block;
+  margin: 5px -8px 20px -8px;
+  padding: 2%;
+}
+
+.copyright {
+  padding: 4%;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
-header {
-
-}
+/* header { */
+/*   background: url(http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg) no-repeat center top; */
+/* } */
 
 footer {
+  color: #f0efef;
+  display:block;
+  padding: 5%;
+  font-weight:600;
+  height:300px;
+  font-size:9px;
+  text-align:center;
+  margin-top:-25px;
+  background-color:#333333;
+}
 
+.yellowlogo
+{
+  color:yellow;
+  font-weight:800;
+  font-size:24px;
+  text-align:center;
+  height:200px;
+}
+
+.asocial
+{
+  width:2em;
+}
+
+.bsocial
+{
+  height:2em;
+}
+
+.copyright{
+  margin-bottom:5em;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-
-
-
+a {
+  text-decoration: none;
+  color: #033048;
+}
