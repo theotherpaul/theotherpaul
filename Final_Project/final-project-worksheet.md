@@ -10,25 +10,37 @@ The toggle lets you read the original prose poems.
 | ------------- |-------------| 
 | [_Tender Buttons_](http://www.bartleby.com/140/)| - original text by Gertrude Stein| 
 | [Squishy Toggle Buttons](https://codepen.io/soulwire/pen/bKens)| - buttons for each section| 
-| [Google Translate](https://translate.google.com/)| - toggle buttons and popup windows for switching between languages <br>  - toggle button for switching between new and original text|  
+| [Google Translate](https://translate.google.com/)| - toggle buttons and popup windows for switching between languages // toggle button for switching between new and original text|  
+| [Poetry Generator](https://codepen.io/joelbyrd/pen/phgCK)| - javascript library of words activated by 'sentencePatterns' |
+
 
 ## Wireframes
 
 Include wireframes for all pages included in the site including:
 
 ### Landing Page
+![alt text](http://res.cloudinary.com/dv7klyiib/image/upload/v1510634164/Tender_Buttons_Landing_Page_dpo59c.jpg "Landing Page Wireframe")
 
 #### Desktop
+![alt text](http://res.cloudinary.com/dv7klyiib/image/upload/v1510634164/Tender_Buttons_Desktop_cfshos.jpg "Desktop Wireframe (after buttons have been pushed)")
 
 #### Tablet
+![alt text](http://res.cloudinary.com/dv7klyiib/image/upload/v1510634164/Tender_Buttons_Tablet_wslsg9.jpg "Tablet Wireframe (after first button has been pushed)")
 
 #### Mobile
+![alt text](http://res.cloudinary.com/dv7klyiib/image/upload/v1510634164/Tender_Buttons_Mobile_1_owsyja.jpg "Mobile Wireframe (stacked buttons scroll down)")
+![alt text](http://res.cloudinary.com/dv7klyiib/image/upload/v1510634164/Tender_Buttons_Mobile_2_vmnpxh.jpg "Mobile Wireframe (after button have been pushed)")
+
 
 ## MVP 
 
-Include the full list of features that you will implement as part of your site's MVP. 
+- Interactive Buttons 
+- javascript Poetry Generator
+- Toggle original text on/off
+- Additional information (popup) 
 
 ## POST MVP
 
-Include the full list of features that you are considering for your site's POST MVP.
+- Compile multiple generated poems and export all together
+- Twitter API
 
