@@ -11,7 +11,7 @@ The toggle lets you read the original prose poems.
 | [_Tender Buttons_](http://www.bartleby.com/140/)| - original text by Gertrude Stein| 
 | [Squishy Toggle Buttons](https://codepen.io/soulwire/pen/bKens)| - buttons for each section| 
 | [Google Translate](https://translate.google.com/)| - toggle buttons and popup windows for switching between languages // toggle button for switching between new and original text|  
-| [Poetry Generator](https://codepen.io/joelbyrd/pen/phgCK)| - javascript library of words activated by 'sentencePatterns' |
+| [Poetry Generator](https://codepen.io/joelbyrd/pen/phgCK)| - JavaScript library of words activated by 'sentencePatterns' |
 
 
 ## Wireframes
@@ -35,7 +35,7 @@ Include wireframes for all pages included in the site including:
 ## MVP 
 
 - Interactive Buttons 
-- javascript Poetry Generator
+- JavaScript Poetry Generator
 - Toggle original text on/off
 - Additional information (popup) 
 
